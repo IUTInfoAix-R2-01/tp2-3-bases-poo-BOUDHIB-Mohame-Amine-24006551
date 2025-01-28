@@ -51,6 +51,8 @@ public class Circle {  // Save as "Circle.java"
 	public String toString() {
 	   return "Circle[radius=" + radius + " color=" + color + "]";
 	}
-	
+	public double getCircumference() {
+		return Math.PI*2*radius;
+	}
 }
 
